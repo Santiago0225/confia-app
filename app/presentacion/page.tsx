@@ -721,7 +721,7 @@ function SlidePrecios() {
 
 // ─── Slide 10: QR ─────────────────────────────────────────────────────────────
 function SlideQR() {
-  const [url, setUrl] = useState('https://tu-proyecto.vercel.app/presentacion')
+  const [url, setUrl] = useState('https://confia-84ofwyd9j-santiago0225s-projects.vercel.app/presentacion')
   const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodeURIComponent(url)}&color=1e3a5f&bgcolor=ffffff&qzone=1`
 
   return (
